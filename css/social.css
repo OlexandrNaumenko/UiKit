@@ -1,0 +1,74 @@
+
+body {
+    font-family: Cabin-SemiBold;
+}
+#page {
+    background: #f2f5f8 none repeat scroll 0 0;
+    margin: 0 auto;
+    width: 300px;
+}
+#header {
+    height: 72px;
+    width: 300px;
+}
+.logo {
+    float: left;
+    padding-left: 11px;
+    padding-top: 13px;
+}
+.name {
+    color: #383737;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    padding-left: 70px;
+    padding-top: 17px;
+}
+.city {
+    color: #b4bbc2;
+    font-size: 14px;
+    letter-spacing: 0.17px;
+    padding-top: 3px;
+}
+.text {
+    color: #383737;
+    font-size: 16px;
+    height: 66px;
+    letter-spacing: 0.3px;
+    line-height: 22px;
+    padding-left: 18px;
+    padding-top: 12px;
+    width: 249px;
+}
+#footer {
+    font-size: 14px;
+    padding-top: 9px;
+}
+.action {
+    color: #b4bbc2;
+}
+.like {
+    float: left;
+    padding-left: 19px;
+    padding-right: 17px;
+}
+.social_buttons {
+    padding-top: 17px;
+}
+.for_button {
+    border-style: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+#like_button {
+    background-color: #d97563;
+    border-radius: 6px;
+    float: left;
+    height: 36px;
+    width: 74px;
+}
+#comment_button {
+    background-color: #68acce;
+    border-radius: 6px;
+    height: 36px;
+    width: 106px;
+}
