@@ -4,7 +4,6 @@ body {
 }
 .post {
     background: #f2f5f8 none repeat scroll 0 0;
-    margin: 0 auto;
     width: 300px;
 }
 .post .header {
@@ -41,25 +40,23 @@ body {
     max-height:300px;
 
 }
-.post.text {
+.post .text {
     color: #383737;
     font-size: 16px;
     height: 66px;
     letter-spacing: 0.3px;
     line-height: 22px;
-    padding-top: 12px;
     width: 249px;
 }
 .post .footer {
     font-size: 14px;
-    padding-top: 9px;
-    padding-left: 18px;
+   padding: 12px 18px 20px;
 }
 .post .action {
     padding-top: 9px;
     color: #b4bbc2;
 }
-.like {
+.post .like {
     float: left;
     padding-left: 1px;
     padding-right: 17px;
@@ -71,18 +68,18 @@ body {
     border-style: none;
     color: #ffffff;
     font-size: 14px;
+    background-color: #68acce;
+    padding: 10px 11px;
+    border-radius: 6px;
+    cursor: pointer;
 }
+
 .post .like_button {
     background-color: #d97563;
-    border-radius: 6px;
     float: left;
-    height: 36px;
-    width: 74px;
     margin-right: 14px;
 }
-.post .comment_button {
-    background-color: #68acce;
-    border-radius: 6px;
-    height: 36px;
-    width: 106px;
+
+.post .for_button i{
+    margin-right: 1px;
 }
