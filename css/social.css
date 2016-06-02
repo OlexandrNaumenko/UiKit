@@ -2,71 +2,85 @@
 body {
     font-family: Cabin-SemiBold;
 }
-#page {
+.post {
     background: #f2f5f8 none repeat scroll 0 0;
     margin: 0 auto;
     width: 300px;
 }
-#header {
+.post .header {
     height: 72px;
     width: 300px;
 }
-.logo {
+
+
+
+.post .avatar {
     float: left;
-    padding-left: 11px;
     padding-top: 13px;
+    padding-left: 11px;
 }
-.name {
+
+.post .name {
     color: #383737;
     font-size: 18px;
     letter-spacing: 0.2px;
     padding-left: 70px;
     padding-top: 17px;
 }
-.city {
+
+.post .city {
     color: #b4bbc2;
     font-size: 14px;
     letter-spacing: 0.17px;
     padding-top: 3px;
+    margin-left: 69px;
 }
-.text {
+
+.post .content{
+    overflow: hidden;
+    max-height:300px;
+
+}
+.post.text {
     color: #383737;
     font-size: 16px;
     height: 66px;
     letter-spacing: 0.3px;
     line-height: 22px;
-    padding-left: 18px;
     padding-top: 12px;
     width: 249px;
 }
-#footer {
+.post .footer {
     font-size: 14px;
     padding-top: 9px;
+    padding-left: 18px;
 }
-.action {
+.post .action {
+    padding-top: 9px;
     color: #b4bbc2;
 }
 .like {
     float: left;
-    padding-left: 19px;
+    padding-left: 1px;
     padding-right: 17px;
 }
-.social_buttons {
+.post .social_buttons {
     padding-top: 17px;
 }
-.for_button {
+.post .for_button {
     border-style: none;
     color: #ffffff;
     font-size: 14px;
 }
-#like_button {
+.post .like_button {
     background-color: #d97563;
     border-radius: 6px;
     float: left;
     height: 36px;
     width: 74px;
+    margin-right: 14px;
 }
-#comment_button {
+.post .comment_button {
     background-color: #68acce;
     border-radius: 6px;
     height: 36px;
