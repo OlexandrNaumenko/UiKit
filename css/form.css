@@ -7,7 +7,7 @@
     background-color: white;
 }
 
-.text {
+.main .text {
     font-size: 16px;
     color: #b4bbc2;
     letter-spacing: 0.2px;
@@ -30,7 +30,7 @@
     float: left;
 }
 
-.width_icon{
+.main .width_icon{
     padding-right:17px ;
 }
 
@@ -38,7 +38,7 @@
     font-size: 17px;
 }
 
-.button{
+.main .button{
     font-size: 14px;
     color:#ffffff;
     letter-spacing:0px;
