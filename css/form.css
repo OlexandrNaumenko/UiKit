@@ -16,6 +16,9 @@
     border: #b4bbc2;
 }
 
+input[type="email"]:focus{
+    outline: none;
+}
 .main .footer{
     background-color: #b4bbc2;
     height: 50px;
@@ -36,6 +39,8 @@
 
 .main .footer .icon i{
     font-size: 17px;
+    cursor:pointer;
+
 }
 
 .main .button{
