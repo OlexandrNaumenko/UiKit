@@ -1,12 +1,12 @@
 body{
-    background-color:  #ECEEF3;
-
+    font-family: Cabin, sans-serif;
 }
  .wrapper{
      width:375px;
      border: 1px solid;
-     color:#BAC1C8;
-
+     color: rgba(186, 193, 200, 0.25);
+     background-color:  #ECEEF3;
+     font-weight: bold;
  }
 
  .image{
