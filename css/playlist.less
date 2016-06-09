@@ -6,32 +6,27 @@
   background:#f2f5f8;
   border-radius:6px;
   width:@base-width - 2*@base-padding;
-  position: relative;
   font-size:16px;
   color:#383737;
   padding: @base-padding;
 }
 
+.header{
+  padding:7px 6px 12px 10px;
+}
+
 .left{
-  position: absolute;
-  left:21px;
-  top:17px;
   letter-spacing:0.3px;
   text-transform: uppercase;
   
 }
 
 .settings{
-  position: absolute;
-  right:16px;
-  top:16px;
+  float: right;
   font-size: 18px;
 
 }
 
-.songs{
-  padding:10px;
-}
 
 .singers{
   float: left;
@@ -74,16 +69,19 @@
 
 .song_time{
   float: right;
+  padding-right:12px;
 
 }
 
 .singer{
   display:block;
-  background: red;
   height: 38px;
   font-size: 16px;
 }
-
+.singer.current{
+  background:#2ea998;
+  border-radius:6px;
+}
 .singers{
   width:100%;
   font-weight:bold;
