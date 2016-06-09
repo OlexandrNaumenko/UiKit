@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Playlist </title>
+    <title>Playlist</title>
     <link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.min.css">
     <link href='https://fonts.googleapis.com/css?family=Cabin:400,600' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet/less" type="text/css" href="css/playlist.less" />
+    <link rel="stylesheet/less" type="text/css" href="css/playlist.less"/>
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>
 </head>
 <body>
+<!--
 <div class="playlist" style="float:left;">
     <span class="left">
         playlist
@@ -16,74 +17,72 @@
     <i class="zmdi zmdi-brightness-5 settings">
     </i>
     <div class="songs">
-            <div class="singers">
-                <div class="for_singers">
+        <div class="singers">
+            <div class="for_singers">
                     <span><i class="zmdi zmdi-play">
                     </i></span>
-                    <span>Nina Simone - Sinnerman</span>
-                    <span>3:16</span>
-                </div>
-                <div class="for_singers">
-                    <i class="zmdi zmdi-play">
-                    </i>
-                    Alice Russell - Citizens
-                </div >
-                <div class="for_singers">
-                    <i class="zmdi zmdi-play">
-                    </i>
-                    John Newman - Love Me Again
-                </div>
-                <div class="for_singers">
-                    <i class="zmdi zmdi-play">
-                    </i>
-                    Hugo - 99 Problems
-                </div>
-                <div class="for_singers">
-                    <i class="zmdi zmdi-play">
-                    </i>
-                    Emika - Wicked Game
-                 </div>
-                <div class="for_singers .suuns">
-                    <i class="zmdi zmdi-play">
-                    </i>
-                    Suuns - Up Past The Nursery
-                </div>
+                <span>Nina Simone - Sinnerman</span>
+                <span>3:16</span>
             </div>
-            <div class="time">
-                <div class="for_singers">
-                    3:16
-                </div>
-                <div  class="for_singers">
+            <div class="for_singers">
+                <i class="zmdi zmdi-play">
+                </i>
+                Alice Russell - Citizens
+            </div >
+            <div class="for_singers">
+                <i class="zmdi zmdi-play">
+                </i>
+                John Newman - Love Me Again
+            </div>
+            <div class="for_singers">
+                <i class="zmdi zmdi-play">
+                </i>
+                Hugo - 99 Problems
+            </div>
+            <div class="for_singers">
+                <i class="zmdi zmdi-play">
+                </i>
+                Emika - Wicked Game
+            </div>
+            <div class="for_singers .suuns">
+                <i class="zmdi zmdi-play">
+                </i>
+                Suuns - Up Past The Nursery
+            </div>
+        </div>
+        <div class="time">
+            <div class="for_singers">
+                3:16
+            </div>
+            <div  class="for_singers">
 
-                    4:28
-                </div>
-                <div  class="for_singers">
-                    3:46
-                </div>
-                <div  class="for_singers hugo">
-                    -2:14
-                </div>
-                <div  class="for_singers">
-                    3:51
-                </div>
-                <div  class="for_singers  suuns">
-                    3:25
-                </div>
+                4:28
             </div>
+            <div  class="for_singers">
+                3:46
+            </div>
+            <div  class="for_singers hugo">
+                -2:14
+            </div>
+            <div  class="for_singers">
+                3:51
+            </div>
+            <div  class="for_singers  suuns">
+                3:25
+            </div>
+        </div>
     </div>
 </div>
-
-<div class="playlist" style="float: left; display:block; margin-left:30px;">
-    <div class="header">
-        <span class="left">
-        playlist
-        </span>
-        <i class="zmdi zmdi-brightness-5 settings">
-        </i>
-    </div>
-    <div class="songs">
-        <div class="singers">
-            <div class="singer">
+-->
+    <div class="playlist">
+        <div class="header">
+            <span class="title">
+                playlist
+            </span>
+            <i class="zmdi zmdi-brightness-5 settings"></i>
+        </div>
+        <div class="songs current">
+            <div class="song">
                 <span class="play_btn">
                     <i class="zmdi zmdi-play"></i>
                 </span>
@@ -94,7 +93,29 @@
                     3:16
                 </div>
             </div>
-            <div class="singer">
+            <div class="song current">
+                <span class="play_btn">
+                    <i class="zmdi zmdi-play"></i>
+                </span>
+                <span class="sing_name">
+                    Nina Simone - <span class="song_name">Sinnerman</span>
+                </span>
+                <div class="song_time">
+                    3:16
+                </div>
+            </div>
+            <div class="song">
+                <span class="play_btn">
+                    <i class="zmdi zmdi-play"></i>
+                </span>
+                <span class="sing_name">
+                    Nina Simone - <span class="song_name">Sinnerman</span>
+                </span>
+                <div class="song_time">
+                    3:16
+                </div>
+            </div>
+            <div class="song">
                 <span class="play_btn">
                     <i class="zmdi zmdi-play"></i>
                 </span>
@@ -107,10 +128,5 @@
             </div>
         </div>
     </div>
-</div>
-
-
-
-
 </body>
 </html>

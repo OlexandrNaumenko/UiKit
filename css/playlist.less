@@ -1,88 +1,82 @@
 @base-font: 'Cabin', sans-serif;
 @base-width: 460px;
-@base-padding:10px;
-.playlist{
+@base-padding: 10px;
+@base-color: #383737;
+@song-curent-bg: #2ea998;
+
+.playlist {
   font-family: @base-font;
-  background:#f2f5f8;
-  border-radius:6px;
-  width:@base-width - 2*@base-padding;
-  font-size:16px;
-  color:#383737;
-  padding: @base-padding;
-}
-
-.header{
-  padding:7px 6px 12px 10px;
-}
-
-.left{
-  letter-spacing:0.3px;
-  text-transform: uppercase;
-  
-}
-
-.settings{
-  float: right;
-  font-size: 18px;
-
-}
-
-
-.singers{
-  float: left;
-  letter-spacing:0.4px;
-}
-
-.time{
-  padding: 0 0 0 394px;
-  color:#b4bbc2;
-}
-
-
-.for_singers{
-  padding:10px 0;
-
-}
-
-.songs .time .suuns{
-  padding-bottom: 0px;
-}
-
-.songs .time .hugo{
-  margin-left: -3px;
-}
-
-.play_btn, .sing_name{
-  float: left;
-}
-
-.play_btn{
-  padding: 9px;
-  cursor: pointer;
-  font-size: 20px;
-
-}
-
-.sing_name, .song_time{
-  padding:11px 0;
-}
-
-.song_time{
-  float: right;
-  padding-right:12px;
-
-}
-
-.singer{
-  display:block;
-  height: 38px;
+  background: #f2f5f8;
+  border-radius: 6px;
+  width: @base-width - 2*@base-padding;
   font-size: 16px;
-}
-.singer.current{
-  background:#2ea998;
-  border-radius:6px;
-}
-.singers{
-  width:100%;
-  font-weight:bold;
+  color: @base-color;
+  padding: @base-padding;
+  display: inline-block;
+
+  .header {
+    padding: 7px 6px 12px 10px;
+    .title {
+      letter-spacing: 0.3px;
+      text-transform: uppercase;
+    }
+    .settings {
+      float: right;
+      font-size: 18px;
+    }
+  }
+
+  .songs {
+    float: left;
+    letter-spacing: 0.4px;
+    width: 100%;
+    font-weight: bold;
+    .song {
+      display: block;
+      height: 38px;
+      font-size: 16px;
+      float: left;
+      width: 100%;
+
+      .play_btn {
+        padding: 10px;
+        cursor: pointer;
+        font-size: 20px;
+      }
+      .play_btn, .sing_name {
+        float: left;
+      }
+      .song_time,
+      .song_name{
+        color: #BCC3C9;
+      }
+      .sing_name, .song_time {
+        padding: 11px 0;
+      }
+      .song_time {
+        float: right;
+        padding-right: 12px;
+      }
+    }
+    .song:first-child .song_time{
+      color: @base-color
+    }
+    .song.current {
+      background: @song-curent-bg;
+      border-radius: 6px;
+    }
+    .song.current{
+      .zmdi-play::before{
+        content: "\f3a7";
+      }
+    }
+    .song.current,
+    .song.current .song_time,
+    .song.current .song_name{
+      color: white;
+    }
+  }
+
+
+
 }
