@@ -2,7 +2,7 @@
 @base-width: 460px;
 @base-padding: 10px;
 @base-color: #383737;
-@song-curent-bg: #2ea998;
+@song-current-bg: #2ea998;
 
 .playlist {
   font-family: @base-font;
@@ -13,6 +13,7 @@
   color: @base-color;
   padding: @base-padding;
   display: inline-block;
+  font-weight: bold;
 
   .header {
     padding: 7px 6px 12px 10px;
@@ -30,7 +31,6 @@
     float: left;
     letter-spacing: 0.4px;
     width: 100%;
-    font-weight: bold;
     .song {
       display: block;
       height: 38px;
@@ -62,7 +62,7 @@
       color: @base-color
     }
     .song.current {
-      background: @song-curent-bg;
+      background: @song-current-bg;
       border-radius: 6px;
     }
     .song.current{

@@ -1,0 +1,58 @@
+@base-font: 'Cabin', sans-serif;
+@base-width: 300px;
+@base-font-size: 16px;
+.wrapper {
+  width: @base-width;
+  background: #f2f5f8;
+  border-radius: 6px;
+  padding: 21px 18px;
+
+  .header,
+  .for_singer_name{
+    font-family: @base-font;
+    font-weight: bold;
+    letter-spacing:0.3px;
+    font-size: @base-font-size;
+  }
+  .content{
+    display: table;
+    .albom{
+      display: block;
+      width: 100%;
+      float: left;
+      margin-top: 19px;
+      .info{
+        padding: 4px 0;
+      }
+    }
+    .albom:first-child{
+      margin-top: 16px;
+    }
+  }
+
+  .for_singer_name{
+    display:table;
+  }
+
+  .singer{
+    color:#383737;
+  }
+
+  .name{
+    color:#b4bbc2;
+    margin-top: 4px;
+  }
+
+  .image{
+    float: left;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-right: 14px;
+    img{
+      width: 48px;
+    }
+  }
+
+}
