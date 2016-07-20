@@ -1,0 +1,42 @@
+@import "base"
+
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+
+.box
+  +border-radius(10px)
+.btn
+  padding: 10px 40px
+  color: $base-color
+  background-color: transparent
+  +border-radius(20px)
+  border: 2px solid white
+  display: block
+  max-width: 600px
+.green
+  @extend .btn
+  background-color: green
+
+.black
+  @extend .btn
+  background-color: black
+body
+  img
+    border: 2px solid white
+    +border-radius(10px)
+    width: 400px
+    height: 600px
+    display: block
+    margin: 0 auto
+  h1
+  color: $base-color
+  background-color: darkcyan
+  font-size: 14px
+  text-align: center
+  .cat
+    font-size: 14px
+    text-align: center
+

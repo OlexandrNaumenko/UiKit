@@ -1,0 +1,44 @@
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+.btn, .green, .black {
+  padding: 10px 40px;
+  color: #000aff;
+  background-color: transparent;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  border: 2px solid white;
+  display: block;
+  max-width: 600px; }
+
+.green {
+  background-color: green; }
+
+.black {
+  background-color: black; }
+
+body {
+  color: #000aff;
+  background-color: darkcyan;
+  font-size: 14px;
+  text-align: center; }
+  body img {
+    border: 2px solid white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    display: block;
+    margin: 0 auto; }
+  body .cat {
+    font-size: 14px;
+    text-align: center; }
+
+/*# sourceMappingURL=main.css.map */

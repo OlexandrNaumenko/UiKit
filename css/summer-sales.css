@@ -1,0 +1,14 @@
+#carousel-example-generic{
+	position: relative;
+
+	.item{
+		margin: 0 auto; 
+	}
+
+		.content{
+			width: 600px;
+			position: absolute;
+			top: 54px;
+			right: 20px;
+		}
+}

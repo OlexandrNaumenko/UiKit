@@ -1,0 +1,99 @@
+body{
+	display: block !important;
+}
+	.wrapper{
+		width: 940px;
+		font-size: 16px;
+		color:#ffffff;
+		background:#f2f5f8;
+		border-radius:6px;
+		font-family:'Cabin-SemiBold';
+		font-weight: bolder;
+		position: relative;
+		max-width: 940px;
+		width: 940px;
+		max-height: 500px;
+		height: 384px;	
+		margin: 20px 81px 0 91px;
+	}
+		.image{
+			padding: 27px 22px 0 34px;
+
+		}
+
+		.info{	
+			/*position:absolute;*/
+			/*right: 66px;*/
+			/*top: 50px;*/
+			width: 307px;
+		}
+
+			.name{
+				font-size:24px;
+				color:#383737;
+				letter-spacing:0.5px;
+			}
+
+			.text{
+				color:#b4bbc2;
+				letter-spacing:0.3px;
+				line-height:21px;
+				padding-top: 12px;
+			}
+
+			.price-star{
+				padding-top: 9px;
+				display:flex;	
+			}
+
+				.price{
+					margin-right: 16px;
+					font-size:24px;
+					color:#383737;
+					letter-spacing:0px;
+				}
+
+				.star{
+					margin-top: 7px;
+				}
+					.bg{
+						color:#d8c171;
+					}
+
+					.bg-grey{
+						color:#B4BBC2;
+					}
+
+			.btn-free-shp{
+				background:#2ea998;
+				font-size: 14px;
+				letter-spacing: 0.4px;
+				padding: 6px;
+				margin-top: 16px;
+			}
+
+			.btn-add{
+				background:#68acce;
+				border-radius:6px;
+				margin-top: 60px;
+				 padding: 15px 39px;
+				 font-size: 16px;
+			}
+				.for-btn{
+					font-weight:bolder;
+					display: table;
+
+				}
+
+
+.product{
+	max-width: 940px;
+	width: 940px;
+}
+
+@media (max-width: 1024px) {
+	.info{
+		width: 100%;
+	}
+
+}
